@@ -16,7 +16,7 @@ var flash = require("connect-flash");
 const dotenv = require("dotenv");
 dotenv.config();
 
-var dbURL = process.env.DATABASEURL || "mongodb+srv://Onkar:Onkar123@nodejstutorial.a0jgl0h.mongodb.net/ecom";
+var dbURL = process.env.DATABASEURL;
 mongoose.connect(dbURL, { useNewUrlParser: true, useUnifiedTopology: true });
 
 app.set("view engine", "ejs");
