@@ -4,7 +4,11 @@
   box-sizing: border-box;
 }
 body{
+ min-height: 100vh;
   background-color: beige;
+  display: flex;
+    flex-direction: column;
+
 }
 
 
@@ -13,6 +17,7 @@ body{
 .review-form,
 .checkout-form,
 .cart-show {
+
   width: 100%;
   margin: 25px auto;
 }
@@ -132,7 +137,8 @@ a:hover {
   color: white;
 }
 .card{
-  margin-top: 1rem;
+  margin-bottom: 1rem;
+  
   border-radius: 2rem;
 }
 .card-img-top{
@@ -145,4 +151,40 @@ border-top-right-radius: 2rem;
 }
 .logo-img{
   border-radius: 1rem;
+}
+
+/* FOOTER */
+
+.footer{
+  margin-top: auto;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+  padding-bottom: 0.5rem;
+  background-color: rgb(102, 98, 98);
+}
+
+
+.footer .row img{
+  padding-top: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
+  width: 2rem;
+  
+  
+}
+.footer .row a{
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 2rem;
+  margin: 1rem;
+  
+}
+.footer .row span{
+  left:  5rem;
+  color: white;
 }
