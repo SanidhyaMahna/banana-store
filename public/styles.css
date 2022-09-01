@@ -121,6 +121,10 @@ a:hover {
   color: yellow;
   font-size: 0.8em;
 }
+.disc-check{
+  color: green;
+  font-size: 00.8em;
+}
 
 .nowrap {
   white-space: nowrap;
