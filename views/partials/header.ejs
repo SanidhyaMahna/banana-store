@@ -109,6 +109,7 @@
               </div>
             </li>
             <% } %>
+            <% if((currentUser && currentUser.username !='admin') || (!currentUser)) { %>
             <li class="nav-item active">
               <a class="nav-link" href="/cart"
                 ><i class="fas fa-shopping-cart mr-2"></i>Cart<span
@@ -117,6 +118,7 @@
                 ></a
               >
             </li>
+            <% } %>
           </ul>
         </div>
       </div>
