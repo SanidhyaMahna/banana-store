@@ -41,12 +41,12 @@
       </h5>
 
       <h6>
-        <% if(currentUser && currentUser.cart.items.some(function(cartItem){
+        <% if(currentUser && currentUser.username!='admin'  &&  currentUser.cart.items.some(function(cartItem){
         return cartItem.product._id.equals(product._id); })) { %>
         <a href="/cart"
           ><button class="btn btn-dark mr-2">Go to cart</button></a
         >
-        <% } else { %>
+        <% } else if(currentUser && currentUser.username!='admin'){ %>
         <a href="/cart/new/<%= product._id %>/show"
           ><button class="btn btn-dark mr-2">Add to cart</button></a
         >
