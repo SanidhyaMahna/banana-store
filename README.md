@@ -1,5 +1,5 @@
 # banana-store
-This is my attempt to recreate an e-commerce website with all the working functionalities needed. 
+This is my attempt to recreate an e-commerce website with all the working functionalities needed. Unfortunately the deployement done on Heroku is not free anymore.
 You can find the attached video link for the full explanation.-> https://youtu.be/4PyhoK6XBA4?si=pp1u8oYNuyMkF_bE
 <img width="947" alt="image" src="https://github.com/SanidhyaMahna/banana-store/assets/65563918/0b241e88-929c-4b11-a280-26a3e9c89ab0">
 
